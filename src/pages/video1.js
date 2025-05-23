@@ -18,13 +18,13 @@ export default function Video1() {
       />
       {/* </div> */}
 
-      <div className="flex items-center mt-4 space-x-4">
-        <div className="rounded-xl p-2">
+      <div className="flex items-center mt-4 space-x-4 text-black">
+        <div className="rounded-xl p-2 bg-gray-200">
           <p className="font-semibold text-lg">Даалгавар</p>
           <p>1.email, age гараас утга авах</p>
           <p>2.үүсгэсэн харилцагчийн датаг харуулах</p>
         </div>
-        <div className="rounded-xl p-2">
+        <div className="rounded-xl p-2 bg-gray-200">
           <p className="font-semibold text-lg">Жич</p>
           <p>
             github:{" "}
@@ -35,8 +35,10 @@ export default function Video1() {
               https://github.com/temujin6/11-back
             </a>
           </p>
-          <p>1. createUser --- харилцагч шинээр үүсгэх</p>
-          <p>2. user --- харилцагчийн дата авах</p>
+          <p>
+            1. http://localhost:8080/createUsers --- харилцагч шинээр үүсгэх
+          </p>
+          <p>2. http://localhost:8080/users --- харилцагчийн дата авах</p>
         </div>
       </div>
     </div>
