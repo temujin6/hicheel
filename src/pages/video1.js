@@ -1,6 +1,6 @@
 export default function Video1() {
   return (
-    <div className="flex items-center justify-center flex-col h-screen">
+    <div className="flex items-center justify-center flex-col h-screen text-white">
       <p className="font-bold text-indigo-400 text-2xl mb-2">Бичлэг 1</p>
       {/* <video className="w-full max-w-2xl rounded-lg shadow-lg" controls>
           <source src="/video1.mp4" type="video/mp4" />
@@ -19,12 +19,12 @@ export default function Video1() {
       {/* </div> */}
 
       <div className="flex items-center mt-4 space-x-4">
-        <div className="bg-gray-200 rounded-xl p-2">
+        <div className="rounded-xl p-2">
           <p className="font-semibold text-lg">Даалгавар</p>
           <p>1.email, age гараас утга авах</p>
           <p>2.үүсгэсэн харилцагчийн датаг харуулах</p>
         </div>
-        <div className="bg-gray-200 rounded-xl p-2">
+        <div className="rounded-xl p-2">
           <p className="font-semibold text-lg">Жич</p>
           <p>
             github:{" "}
